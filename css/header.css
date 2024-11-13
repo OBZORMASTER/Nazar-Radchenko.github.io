@@ -1,0 +1,43 @@
+
+header {
+    background-color: #a9bfe4;
+    padding: 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.logo img {
+    width: 19%;
+    margin-right: 2%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 160%;
+    font-weight: bold;
+    margin: 0 2%;
+}
+
+.logo a:hover h3 {
+    text-decoration: underline;
+    color: white;
+}
+
+.logo h3 {
+    max-width: 100%;
+    word-wrap: break-word;
+    margin: 0;
+    font-weight: normal;
+}
+
+
