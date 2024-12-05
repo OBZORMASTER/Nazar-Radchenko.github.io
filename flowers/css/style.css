@@ -374,3 +374,28 @@ body {
 #own_view input[type="submit"]:hover {
     background-color: #f39199;
 }
+
+
+.comment {
+    margin-bottom: 2%;
+    margin-left: 9.8%;
+    padding: 2%;
+    width: 76%;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment h1 {
+    color: #989ec3;
+    font-size: 160%;
+    font-weight:lighter;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+.comment h2 {
+    color: #351f21;
+    font-size: 160%;
+    font-weight:lighter;
+    margin-top: 1%;
+}
