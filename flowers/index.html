@@ -9,6 +9,8 @@
     <title>Flower Design</title>
     <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/template.css">
+    <script src="./js/comments.js"></script>
+
 </head>
 <body>
     
@@ -155,16 +157,18 @@
             <h2>“Замовляла квіти у неробочий час (увечері), але зі мною дуже оперативно зв'язався співробітник та пообіцяв доставити букет вранці у призначений час. Так і сталося, квіти були доставлені з точністю секунда в секунду, свіжі та красиві. Рекомендую.”</h2>
         </div>
 
+        <div id="new_comments"></div>
+
         <div id="own_view_name">
             <h1>Додати відгук:</h1>
         </div>
 
         <div id="own_view">
-            <form action="#" method="post">
+            <form id="feedback_form" method="post" onsubmit="return false;">
                 <input type="text" name="name" placeholder="Ваше ім'я" required>
                 <textarea name="feedback" placeholder="Ваш відгук" required></textarea>
                 <input type="submit" value="Відправити">
-            </form>
+            </form>                        
         </div>
         
     </div>
@@ -200,4 +204,3 @@
     <h3 class="copyright">Copyright Ⓒ 2022</h3> 
 </footer>
 </section>
-
